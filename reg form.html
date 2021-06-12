@@ -1,0 +1,314 @@
+<html>
+   <head>
+     <script type="text/javascript" src="reg-form.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+   <style type="text/css">
+
+
+   #body{
+
+   background: #FFFFFF;
+
+   }
+   #header{
+     background-image:url("https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+   background-size:cover;
+   padding:40px 15px;
+   border:1px solid DimGrey;
+    position:static;
+
+
+    border-style:dotted;
+    border-radius:20px;
+    font-family: "Audiowide", sans-serif;
+
+   margin:70px 0px 0px 0px;
+   text-shadow:2px 3px gray;
+   text-align:center;
+   }
+   #h4{
+   text-align:left;
+   font-family:Tangerine, cursive;
+   font-weight:500px;
+
+
+   }
+   img{float:center;
+    length:20%;
+    width:40%;
+    border-radius:50px;
+    margin: 20px 0 20px 5px;
+    border:none;
+   }
+   #headsec{
+     background-image: url("https://images.pexels.com/photos/3345882/pexels-photo-3345882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat:no-repeat;
+   color:blueviolet;
+   padding:40px 20px;
+    display:inline;
+      font-weight:600px;
+      font-size:50px;
+      font-family:" https://www.fontspace.com/croissant-sandwich-font-f14796";
+    max width:30%;
+  position: absolute;
+length:50%;
+   border:none;
+   }
+  #section{
+  text-align:center;
+  background:#FFF8DC;
+  padding:40px 40px;
+  border-radius:30px;
+  margin: 20px 5px 20px 5px;
+   float:left;
+   position:static;
+ }
+
+  input[type=text],
+  input[type=password],
+  input[type=email],
+  input[type=tel]{
+  border-radius:5px;
+  width:100%;
+  display:block;
+  padding: 10px 10px;
+  background:#F1F1F1;
+  border-style:dotted;
+  box-shadow:4px 2px grey;
+  font-weight:200px;
+  font-family:Tangerine, cursive;
+  cursor: pointer;
+
+  }
+  #button {
+
+  background:orange;
+
+  color: black;
+
+  border: 1px solid #eee;
+
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 5px #7FFFD4;
+
+  text-shadow:none;
+
+  padding: 20px 10px;
+
+   width: 100%;
+
+  }
+
+  #button:hover {
+
+  background: #04AA6D;
+
+  color: #fff;
+
+  border: 1px solid #eee;
+
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 5px #F0F8FF;
+
+  text-shadow:none;
+
+  }
+  a.link{
+  text-decoration:none;
+  color:white;
+  }
+  a.hover{
+  color:#FOFFFF;
+  }
+  a.visited {
+  color:#FAEBD7;
+  }
+
+  #footer{
+  background:;
+  padding:20px 15px;
+  text-align:center;
+  color:burlywood;
+  clear: both;
+
+  }
+  .ul{
+  margin: 0px ;
+  padding: 10px ;
+  background:#333;
+  position :fixed;
+  top:1px;
+   width:100%;
+   opacity: 0.5;
+
+  list-style-type:none;
+
+  }
+  li{
+  display:inline;
+  border-right:1px solid gray;
+  width:100%;
+  padding:0px 3px ;
+  }
+  a{
+  color:bisque;
+  hover:burlywood;
+  padding:10px 20px ;
+  text-align:center;
+  text-decoration:none;
+  font-family:cursive;
+
+  }
+  a:hover{
+  color:blue;
+
+  }
+
+ img.profile{
+ float:left;
+ length:10%;
+ padding:20px;
+ width:30%;
+ }
+
+ .img2{
+ width:100%;
+ length:5000px;
+ border-radius:10px;
+ clear:right;
+ opacity:0.5;
+ padding: 0px 0px;
+ position:absolute;
+ top:-800px;
+ left: 20px;
+ bottom: -50px;
+ }
+ p{
+ color:#333;
+ }
+ a.signin{
+ color:magenta;
+ hover:burlywood;
+}
+ #testarticle{
+   clear:both;
+   font-family: "Trirong", sans-serif;
+   border-radius: 20px;
+   color:black;
+
+ }
+ }
+
+
+
+
+   </style>
+
+</head>
+<nav>
+
+<ul class="ul" >
+<li>
+<a href="#"> Home </a>
+</li>
+<li>
+<a href="#"> About </a>
+</li>
+<li>
+<a href="#"> Contact </a>
+</li>
+<li>
+<a href="#" > dropdown</a>
+</li>
+<li>
+<a href="#" >news</a>
+
+</span>
+</li>
+</ul>
+</nav>
+
+<body id="body">
+
+<header id="header">
+ <h1>WELCOME </h1>
+  <h3>To</h3>
+  <h2>MY WEBSITE</h2>
+  <img src ="https://images.pexels.com/photos/7405525/pexels-photo-7405525.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 length="200">
+
+ </header>
+
+  <section id="section">
+  <form autocomplete="on" id="form" method="POST" onsubmit="return validate()">
+
+  <label for="username"><strong>Username</strong></label><br>
+  <input type="text" name="username"class="username"required/><br>
+
+  <label for="e-mail"><strong> E-mail address:</strong> </label>
+  <input name="email" class="email"type="email"placeholder="email@adress.com" required /><br>
+
+  <label for="password"><strong>Password</strong></label><br>
+  <input name="psw" class="psw"type="password" placeholder="*******"/><br>
+
+  <label for="tel"><strong>phone contact<strong></label><br>
+  <input class="tel" name="tel" type="tel" placeholder="555.555.1211" /><br>
+
+  <input type="submit" id="button"value="REGISTER"/>
+  </form>
+  <div id="link">
+  <p>already have an account?</p>
+  <p><a class="signin" href="#"><b>sign in</b></a></p> </div>
+
+</section>
+<article id="testarticle">
+  <h2>How to Use OpenCV and Python for Computer Vision and AI</h2>
+<P> OpenCV is a popular Python library for real-time computer vision.</br></P>
+
+<p>We just released a new OpenCV course on the freeCodeCamp.org YouTube channel. This course comes directly from the creators of OpenCV and is the perfect course for beginners.</br>
+</br></p>
+<p>You will learn how to use OpenCV for Computer Vision and AI. You will learn and get exposed to a wide range of exciting topics like Image & Video Manipulation, Image Enhancement, Filtering, Edge Detection, Object Detection and Tracking, Face Detection and the OpenCV Deep Learning Module.
+</br></p>
+<p>At the end of this course there is an interview with Dr. Satya Mallick, the CEO of OpenCV.org. Dr. Mallick shares his views on the many opportunities in the Computer Vision and AI job market.  He gives advice on how to prepare and get hired for a job in AI.
+</br></p>
+Here are the sections in this course:</br>
+<li>
+<ol>Module 1: Getting Started with Images</ol>
+<ol>Module 2: Basic Image Manipulation</ol>
+<ol>Module 3: Image Annotation</ol>
+<ol>Module 4: Image Enhancement</ol>
+<ol>Module 5: Accessing the Camera</ol>
+<ol>Module 6: Read and Write Videos</ol>
+<ol>Module 7: Image Filtering and Edge Detection</ol>
+<ol>Module 8: Image Features and Image Alignment</ol>
+<ol>Module 9: Image Stitching and Creating Panoramas</ol>
+<ol>Module 10: High Dynamic Range Imaging (HDR)</ol>
+<ol>Module 11: Object Tracking</ol>
+<ol>Module 12: Face Detection</ol>
+<ol>Module 13: Object Detection</ol>
+<ol>Module 14: Pose Estimation using OpenPose</ol>
+</li>
+ </article>
+<footer id="footer">
+<a href="#" class="link">Terms and conditions</a><br>
+<a href="#"class="link" >about us </a><br>
+<a href="#" class="link">Home</a><br>
+</footer>
+
+<section id="headsec">
+
+<h5>innovation through code</h5>
+<img class="img2" src="https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+
+</section>
+
+
+
+</body>
+</html>
